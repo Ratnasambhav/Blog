@@ -4,6 +4,12 @@
     background-color: rgb(25, 169, 116);
   }
 
+  .line {
+    height: 15px;
+    width: 100%;
+    background-color: gold;
+  }
+
   h1 {
     font-size: 80px;
     font-family: "Maison Neue Bold";
@@ -30,17 +36,24 @@
 
   .social a img {
     max-height: 30px;
+    border-radius: 50%;
+    transition: background-color 200ms ease-in;
+  }
+
+  .social a img:hover {
+    background-color: gold;
   }
 </style>
 
 <div class="wrapper">
+  <div class="line"></div>
   <h1>Ratnasambhav's Blog</h1>
   <p>
     Hello there!
     <br><br>
-    I'm Ratnasambhav Priyadarshi.
+    I'm Ratnasambhav Priyadarshi. I work at Amazon Web Services in Bengaluru.
     <br><br>
-    I write about things I like, which is mostly web developemt and video games. I work at Amazon Web Services in Bengaluru.
+    I write about things I like, which is mostly web developemt and video games. 
   </p>
   <div class="social">
     <a href="https://github.com/Ratnasambhav/">

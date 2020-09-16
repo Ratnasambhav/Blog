@@ -9,7 +9,7 @@
 
 <style>
     .postList {
-        margin: 100px 70px;
+        margin: 10px 70px;
     }
 
     .postList h1 {
@@ -20,7 +20,7 @@
 
     @media screen and (max-width: 600px) {
         .postList {
-            margin: 100px 30px;
+            margin: 10px 20px;
         }
 
         .postList h1 {

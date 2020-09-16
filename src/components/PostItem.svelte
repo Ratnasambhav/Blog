@@ -38,6 +38,20 @@
         color: #7c7c7c;
         font-family: "Maison Mono";
     }
+
+    @media screen and (max-width: 600px) {
+        .title {
+            font-size: 30px;
+        }
+
+        .summary {
+            font-size: 16px;
+        }
+
+        .date {
+            font-size: 12px;
+        }
+    }
 </style>
 
 <div>

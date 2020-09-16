@@ -17,6 +17,16 @@
         font-family: "Maison Neue Bold";
         text-decoration: underline gold 10px;
     }
+
+    @media screen and (max-width: 600px) {
+        .postList {
+            margin: 100px 30px;
+        }
+
+        .postList h1 {
+            font-size: 35px;
+        }
+    }
 </style>
 
 <svelte:head>

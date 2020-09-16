@@ -43,27 +43,87 @@
   .social a img:hover {
     background-color: gold;
   }
+
+  @media screen and (max-width: 830px) {
+    .wrapper {
+      padding: 70px 50px;
+    }
+
+    h1 {
+      font-size: 70px;
+    }
+
+    p {
+      font-size: 24px;
+    }
+  }
+
+  @media screen and (max-width: 656px) {
+    .wrapper {
+      padding: 70px 40px;
+    }
+
+    h1 {
+      font-size: 60px;
+    }
+
+    p {
+      font-size: 22px;
+    }
+  }
+
+  @media screen and (max-width: 548px) {
+    .wrapper {
+      padding: 70px 40px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 399px) {
+    .wrapper {
+      padding: 70px 20px;
+    }
+
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .wrapper {
+      padding: 70px 20px;
+    }
+
+    h1 {
+      font-size: 35px;
+    }
+  }
 </style>
 
 <div class="wrapper">
-  <div class="line"></div>
+  <div class="line" />
   <h1>Ratnasambhav's Blog</h1>
   <p>
-    Hello there!
-    <br><br>
-    I'm Ratnasambhav Priyadarshi. I work at Amazon Web Services in Bengaluru.
-    <br><br>
-    I write about things I like, which is mostly web developemt and video games. 
+    Hello there! <br /><br /> I'm Ratnasambhav Priyadarshi. I work at Amazon Web
+    Services in Bengaluru. <br /><br /> I write about things I like, which is mostly
+    web developemt and video games.
   </p>
   <div class="social">
     <a href="https://github.com/Ratnasambhav/">
-      <img src="github.png" alt="GitHub">
+      <img src="github.png" alt="GitHub" />
     </a>
     <a href="https://www.linkedin.com/in/ratnasambhav/">
-      <img src="linkedin.png" alt="LinkedIn">
+      <img src="linkedin.png" alt="LinkedIn" />
     </a>
     <a href="https://twitter.com/ratnasambhav732">
-      <img src="twitter.png" alt="Twitter">
+      <img src="twitter.png" alt="Twitter" />
     </a>
   </div>
 </div>

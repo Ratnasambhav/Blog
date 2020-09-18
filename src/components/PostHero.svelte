@@ -27,8 +27,31 @@
   }
 
   .date {
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Maison Mono";
+  }
+
+  a {
+    color: #000;
+    font-size: 15px;
+    font-family: "Maison Neue Light";
+    text-decoration: 1px underline #000;
+    transition: color 200ms ease-in, text-decoration 200ms ease-in;
+  }
+
+  a:hover {
+    color: gold;
+    text-decoration: 1px underline gold;
+  }
+
+  @media screen and (max-width: 550px) {
+    .wrapper {
+      padding: 70px 20px;
+    }
+
+    h1 {
+      font-size: 60px;
+    }
   }
 </style>
 
@@ -36,5 +59,5 @@
   <div class="line"/>
   <h1>{title}</h1>
   <p class="date">{`${da}th ${mo}, ${ye}`}</p>
-  <a href="/">Home</a>
+  <a href="/">←Home</a>
 </div>

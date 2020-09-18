@@ -21,6 +21,53 @@
 	.content :global(h1:nth-child(1)) {
 		display: none
 	}
+
+	.content {
+		max-width: 900px;
+		margin: 40px auto;
+		padding: 0 20px
+	}
+
+	.content :global(p, li) {
+		font-size: 18px;
+		font-family: "Maison Neue"
+	}
+
+	.content :global(ul) {
+		list-style: square;
+	}
+
+	.content :global(pre, code) {
+		font-size: 18px;
+		font-family: "Maison Mono";
+	}
+
+	.content :global(pre) {
+		padding: 15px;
+		overflow-x: scroll;
+		border-radius: 5px;
+		border: 2px solid gold;
+		background-color: #FFF;
+	}
+
+	.content :global(pre code) {
+		padding: 0;
+		border-radius: 0;
+		border: none
+	}
+
+	.content :global(code) {
+		padding: 0 3px;
+		border-radius: 5px;
+		border: 1px solid gold;
+		background-color: #FFF;
+	}
+
+	.content :global(h2) {
+		font-family: "Maison Neue Bold";
+		font-size: 30px;
+		margin-top: 50px;
+	}
 </style>
 
 <svelte:head>

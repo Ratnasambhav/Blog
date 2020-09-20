@@ -29,9 +29,9 @@ The final piece of the puzzle is [Sapper](https://sapper.svelte.dev/), which is 
 
 I have been hosting my blog on [GitHub Pages](https://pages.github.com/) because it is free and very easy to manage. The URL to the website used to be [ratnasambhav.github.io](https://ratnasambhav.github.io/).
 
-As you can see now, I have finally bought a domain - [ratnasambhav.dev](https://ratnasambhav.dev). The website itself is hosted via Netlify which is connected to the GitHub [repository](https://github.com/Ratnasambhav/Sapper-Blog) for this website. It's a static website and I don't need anything other than the features provided in the free tier of Netlify.
+As you can see now, I have finally bought a domain - [ratnasambhav.dev](https://ratnasambhav.dev). The website itself is hosted on Netlify which is connected to the GitHub [repository](https://github.com/Ratnasambhav/Sapper-Blog) for this website. It's a static website and I don't need anything other than the features provided in the free tier of Netlify.
 
-## Consolusion
+## Conclusion
 I really like Svelte and I am looking forward to using it in other projects. React will still be my framework of choice, primarily because the React ecosystem is better when compared to most other frameworks.
 
 I want to add a few more pages to the website. For example, I like the idea of a page which lists the things (games, books, music, etc) I am currently enjoying. That and many more blog posts which is something I have failed to do in the past.

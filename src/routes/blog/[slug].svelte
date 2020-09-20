@@ -13,6 +13,7 @@
 
 <script>
 	import PostHero from '../../components/PostHero.svelte'
+	import Footer from '../../components/Footer.svelte'
 
 	export let post;
 </script>
@@ -24,8 +25,10 @@
 
 	.content {
 		max-width: 900px;
-		margin: 40px auto;
-		padding: 0 20px
+		margin: 0 auto;
+		padding: 60px 20px;
+		border-bottom: 1px solid #000;
+		line-height: 1.4;
 	}
 
 	.content :global(p, li) {
@@ -57,7 +60,6 @@
 	}
 
 	.content :global(code) {
-		padding: 0 3px;
 		border-radius: 5px;
 		border: 1px solid gold;
 		background-color: #FFF;
@@ -78,3 +80,5 @@
 <div class='content'>
 	{@html post.html}
 </div>
+
+<Footer/>

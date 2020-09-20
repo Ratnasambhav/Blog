@@ -116,13 +116,13 @@
     web developemt and video games.
   </p>
   <div class="social">
-    <a href="https://github.com/Ratnasambhav/">
+    <a href="https://github.com/Ratnasambhav/" target="_blank">
       <img src="github.png" alt="GitHub" />
     </a>
-    <a href="https://www.linkedin.com/in/ratnasambhav/">
+    <a href="https://www.linkedin.com/in/ratnasambhav/" target="_blank">
       <img src="linkedin.png" alt="LinkedIn" />
     </a>
-    <a href="https://twitter.com/ratnasambhav732">
+    <a href="https://twitter.com/ratnasambhav732" target="_blank">
       <img src="twitter.png" alt="Twitter" />
     </a>
   </div>

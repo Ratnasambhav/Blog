@@ -5,6 +5,7 @@
 <script>
     import HomeHero from '../components/HomeHero.svelte'
     import PostItem from '../components/PostItem.svelte'
+    import Footer from '../components/Footer.svelte'
 </script>
 
 <style>
@@ -41,3 +42,5 @@
         <PostItem post={post}/>
     {/each}
 </div>
+
+<Footer/>

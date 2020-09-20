@@ -1,6 +1,6 @@
 <script context="module">
 	export async function preload({ params, query }) {
-		const res = await this.fetch(`blog/${params.slug}.json`);
+		const res = await this.fetch(`post/${params.slug}.json`);
 		const data = await res.json();
 
 		if (res.status === 200) {
@@ -27,7 +27,6 @@
 		max-width: 900px;
 		margin: 0 auto;
 		padding: 60px 20px;
-		border-bottom: 1px solid #000;
 		line-height: 1.4;
 	}
 

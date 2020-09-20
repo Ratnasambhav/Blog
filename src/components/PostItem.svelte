@@ -56,7 +56,7 @@
 </style>
 
 <div>
-    <a href={`blog/${post.slug}`}>
+    <a href={`post/${post.slug}`}>
         <h2 class="title">{post.metadata.title}</h2>
         <p class="summary">{post.metadata.summary}</p>
         <p class="date">{`${da}th ${mo}, ${ye}`}</p>

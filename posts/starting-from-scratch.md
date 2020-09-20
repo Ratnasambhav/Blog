@@ -1,11 +1,11 @@
 ---
-title: Rebuilding the blog
+title: Starting from scratch
 date: 2020-10-20
 summary: A brief overview of how this blog was re-created using Svelte and Sapper.
 ---
-# Rebuilding the blog
+# Starting from scratch
 
-## Starting from scratch
+## Rebuilding the blog
 
 You probably did not see the previous version of this blog. I had published only a couple of posts and only shared them with a handful of people. The odds of anyone reading those posts is quite small. That version was built with [Gatsby.js](https://www.gatsbyjs.com/) and was very basic. The posts were written in a Gatsby page/component which was very annoying.
 

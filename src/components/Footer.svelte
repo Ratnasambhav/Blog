@@ -13,7 +13,7 @@
 
   .links a {
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Maison Neue Light";
     text-decoration: 1px underline #000;
     transition: color 200ms ease-in, text-decoration 200ms ease-in;
@@ -25,7 +25,7 @@
   }
 
   span {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Maison Mono";
   }
 </style>

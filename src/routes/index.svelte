@@ -32,6 +32,11 @@
 
 <svelte:head>
     <title>Ratnasambhav's Blog</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Ratnasambhav's Blog" />
+    <meta property="og:description" content="I write about things I like, which is mostly web development and video games." />
+    <meta property="twitter:title" content="Ratnasambhav's Blog" />
+    <meta property="twitter:description" content="I write about things I like, which is mostly web development and video games." />
 </svelte:head>
 
 <HomeHero/>

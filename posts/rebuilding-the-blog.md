@@ -23,10 +23,10 @@ Here are the differences which matter the most to me:
 - All CSS is locally scoped to the component. That means we do not need CSS-in-JS libraries or CSS modules. We can use plain old CSS. Unused CSS is automatically purged.
 
 One thing I like about React is that it is just JavaScript (or TypeScript). Svelte deviates from this as in it has a template syntax like Angular. The components are written in a `<compoent-name>.svelte` file which resembles Vue components. The official Svelte [website](https://svelte.dev/) has a great [tutorial](https://svelte.dev/tutorial/basics). I highly recommend you to try it.
-The final piece of the puzzle is [Sapper](https://sapper.svelte.dev/), which is Next.js for Svelte. It gives us filesystem-based routing, SSR and SEO along with the benefit of Svelte. The filesystem-based routing is, in fact, more flexible in than Next.js.
+The final piece of the puzzle is [Sapper](https://sapper.svelte.dev/), which is Next.js for Svelte. It gives us filesystem-based routing, SSR and SEO along with the benefit of Svelte. The filesystem-based routing is, in fact, more flexible in than Next.js. I am using `@jackfranklin/rollup-plugin-markdown` to automatically read and convert markdown files to HTML and then Sapper handles the rendering part.
 
 ## Hosting
 
 I have been hosting my blog on [GitHub Pages](https://pages.github.com/) because it is free and very easy to manage. The URL to the website used to be [ratnasambhav.github.io](https://ratnasambhav.github.io/).
 
-As you can see now, I have finally bought a domain - [ratnasambhav.dev](https://ratnasambhav.dev).
+As you can see now, I have finally bought a domain - [ratnasambhav.dev](https://ratnasambhav.dev). The website itself is hosted via Netlify which is connected to the GitHub [repository](https://github.com/Ratnasambhav/Sapper-Blog) for this website. It's a static website and I don't need anything other than the features provided in the free tier of Netlify.

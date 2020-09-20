@@ -73,7 +73,12 @@
 </style>
 
 <svelte:head>
-	<title>{post.metadata.title}</title>
+	<title>{post.metadata.title} | Ratnasambhav's Blog</title>
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content={post.metadata.title + " | Ratnasambhav's Blog"} />
+	<meta property="og:description" content={post.metadata.summary} />
+	<meta property="twitter:title" content={post.metadata.title + " | Ratnasambhav's Blog"} />
+	<meta property="twitter:description" content={post.metadata.summary} />
 </svelte:head>
 
 <PostHero title={post.metadata.title} date={post.metadata.date}/>

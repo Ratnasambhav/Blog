@@ -113,7 +113,7 @@
   <p>
     Hello there! <br /><br /> I'm Ratnasambhav Priyadarshi. I work at Amazon Web
     Services in Bengaluru. <br /><br /> I write about things I like, which is mostly
-    web developemt and video games.
+    web development and video games.
   </p>
   <div class="social">
     <a href="https://github.com/Ratnasambhav/" target="_blank">

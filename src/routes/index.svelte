@@ -16,7 +16,9 @@
     .postList h1 {
         font-size: 40px;
         font-family: "Maison Neue Bold";
-        text-decoration: underline gold 10px;
+        border-bottom: 10px solid gold;
+        display: inline-block;
+        line-height: 0.8;
     }
 
     @media screen and (max-width: 600px) {

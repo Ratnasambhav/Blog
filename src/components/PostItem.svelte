@@ -18,14 +18,15 @@
     }
 
     .title {
+        margin: 0;
         font-size: 35px;
+        display: inline-block;
         font-family: "Maison Neue Demi";
-        text-decoration: underline #FFF 0px;
-        transition: text-decoration 200ms ease-in;
+        transition: box-shadow 200ms ease-in;
     }
 
     .title:hover {
-        text-decoration: underline gold 5px;
+        box-shadow: 0px 10px 0px 0px gold;
     }
 
     .summary {
